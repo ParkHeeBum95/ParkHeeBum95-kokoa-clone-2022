@@ -1,3 +1,3 @@
 # Kokoa Clone 2022
 
-css got so much better!
+프론트엔드 개발은 항상 즐겁습니다.
