@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,37 @@
 </head>
 
 <body>
-    <div id="status-bar">
-        <div class="status-bar__column"> </div>
-        <span>No Service</span>
-        <!--To Dp: Wifi Icon-->
-        <div class="status-bar__column"> </div>
-        <span>18:43</span>
-        <div class="status-bar__column"> </div>
-        <span>110%</span>
-        <!--Battery Icon-->
-        <!--Lightning Icon-->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">키츠네톡에 오신것을 환영합니다.</h1>
+        <p class="welcome-header__text">사랑과 정성을 다하는 키츠네톡입니다. 키츠네 계정으로 로그인하세요. </p>
+
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="핸드폰번호 또는 계정" />
+        <input type="text" placeholder="비밀번호" />
+        <input type="submit" value="로그인" />
+        <a href="#">계정 찾기 또는 비밀번호 찾기</a>
+
+    </form>
+
+    <script src="https://kit.fontawesome.com/6bf281c86c.js" crossorigin="anonymous">
+    </script>
 
 </body>
 
