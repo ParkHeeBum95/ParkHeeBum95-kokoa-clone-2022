@@ -3,41 +3,52 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://www.urbanthreads.com/productImages/regularSize/UT16283.jpg" rel="shortcut icon"
+        type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kitsune Talk</title>
+    <title> Welcome to Kitsune Talk</title>
 </head>
 
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
+            <span>Wifi-mode</span>
             <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
             <i class="fas fa-battery-full"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
 
     <header class="welcome-header">
-        <h1 class="welcome-header__title">키츠네톡에 오신것을 환영합니다.</h1>
-        <p class="welcome-header__text">사랑과 정성을 다하는 키츠네톡입니다. 키츠네 계정으로 로그인하세요. </p>
-
+        <img id="welcome-header-kitsune"
+            src="https://mblogthumb-phinf.pstatic.net/MjAxOTA1MzFfMTgz/MDAxNTU5MjcwOTE1MjA3.EqRtV81J7RvrGcklYbMGy90GE_JoRkXesaPSS5rn4gcg.1Vfcs7cpS6cO7GuCA20k18Mnf-Js4qkfaUJIlw_edkQg.PNG.wc_0212/%EB%A9%94%EC%A2%85%ED%82%A4%EC%B8%A0%EB%84%A4(6-2).PNG?type=w800"
+            height="200">
+        <h1 class="welcome-header__title">Kitsune Talk</h1>
+        <p class="welcome-header__text"></p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="핸드폰번호 또는 계정" />
-        <input type="text" placeholder="비밀번호" />
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" required placeholder=" 핸드폰번호 또는 계정" />
+        <input name="password" type="text" required placeholder=" 비밀번호" />
         <input type="submit" value="로그인" />
         <a href="#">계정 찾기 또는 비밀번호 찾기</a>
-
     </form>
+
+    <div id="login_advertise">
+        <a href="https://map.naver.com/v5/search/%EA%B8%B0%EC%9E%A5%EC%8B%9C%EC%9E%A5%20%EC%B9%98%EA%B3%BC/place/12915581?placePath=%3Fentry%253Dpll&c=14383383.5051178,4197073.8815065,15,0,0,0,dh"
+            target="blank"><img
+                src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200901_126%2F1598939218620b9RJh_JPEG%2FFLZCQQOdSgekg8mmTSAzlykL.jpg"
+                width="300" alt="기장시장 No.1 치과 굿모닝치과" title="굿모닝치과">
+            기장시장 No.1치과, 굿모닝치과!</a>
+    </div>
 
     <script src="https://kit.fontawesome.com/6bf281c86c.js" crossorigin="anonymous">
     </script>
