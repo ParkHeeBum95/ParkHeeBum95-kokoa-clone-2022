@@ -6,6 +6,8 @@
 @import "screen-header.css";
 @import "friends.css";
 @import "user-components.css";
+@import "badge.css";
+@import "find.css";
 
 body {
   height: 1000vh;
@@ -13,4 +15,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: blanchedalmond;
   color: #2e363e;
+}
+
+.main_screen {
+  padding: 0px var(--horizontal-space);
 }
