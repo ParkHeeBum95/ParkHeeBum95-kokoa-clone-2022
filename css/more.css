@@ -1,0 +1,73 @@
+.catuion_icon {
+  color: tomato;
+  margin-left: 5px;
+}
+.user-component {
+  margin-bottom: 40px;
+}
+.user-component__subtitle {
+  display: flex;
+}
+
+.user-component__note-icon {
+  display: flex;
+  align-items: center;
+}
+
+.find-icons__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.find-icons__divide {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+.suggestions {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 40px;
+}
+
+.suggestions h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.more__icons {
+  display: flex;
+  align-items: center;
+}
+
+.more__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  align-items: center;
+}
+.more__icon-view {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more__icon-view i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

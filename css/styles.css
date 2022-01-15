@@ -8,6 +8,7 @@
 @import "user-components.css";
 @import "badge.css";
 @import "find.css";
+@import "more.css";
 
 body {
   height: 1000vh;
