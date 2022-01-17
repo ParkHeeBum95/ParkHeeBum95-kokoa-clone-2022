@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Wifi-mode</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header chatting__header">
+        <div class="header1">
+            <a href="chat.html">
+                <i class="fas fa-chevron-left fa-2x"></i>
+            </a>
+        </div>
+        <h1 class="header__title header2">여자친구</h1>
+        <div class="screen__header__icons header3">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main_screen">
+
+        <div class="chatting__time-header">
+            <div class="chatting__time">
+                <span class="chatting__time-realtime">Sunday, Jan 16, 2022</span>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="images/혜린.jpg">
+            <div class="message-row__content">
+                <span class="message__author">여자친구</span>
+                <div class="message__info">
+                    <span class="message__bubble">댜기 왜이렇게 멋잇어.......</span>
+                    <span class="message__time">21:09</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">후훗</span>
+                    <span class="message__time">21:10</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="images/혜린.jpg">
+            <div class="message-row__content">
+                <span class="message__author">여자친구</span>
+                <div class="message__info">
+                    <span class="message__bubble">꺄악~~~~!!!!!</span>
+                    <span class="message__time">21:10</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="images/혜린.jpg">
+            <div class="message-row__content">
+                <span class="message__author">여자친구</span>
+                <div class="message__info">
+                    <span class="message__bubble">역시 댜기뿐이양!!</span>
+                    <span class="message__time">21:10</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input class="reply__column_input" type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/6bf281c86c.js" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
